@@ -488,15 +488,23 @@ header.masthead .intro-text .intro-heading {
 .timeline .timeline-heading h4 {
   margin-top: 0;
   color: inherit;
+  font-size: 120%;
 }
 
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
+  font-size: 90%;
 }
 
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
   margin-bottom: 0;
+  text-align: left;
+  font-size: 90%;
+}
+
+.timeline .timeline-body li {
+  text-align: left;
 }
 
 @media (min-width: 768px) {
