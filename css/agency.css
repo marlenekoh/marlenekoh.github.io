@@ -720,3 +720,9 @@ section#contact {
   height: 80px;
   padding:10px;
 }
+
+#about .btn {
+  width: 200px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
