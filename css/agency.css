@@ -756,3 +756,15 @@ section#contact {
   margin: 0;
   width: 320px;
 }
+
+hr.light {
+  border: none;
+  height: 1px;
+  background-color: #CCCCCC;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #999999;
+}
