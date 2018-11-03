@@ -724,8 +724,8 @@ section#contact {
 }
 
 .tools-icon {
-  width: 80px;
   height: 80px;
+  width: auto;
   padding:10px;
 }
 
