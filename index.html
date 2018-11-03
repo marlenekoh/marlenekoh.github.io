@@ -513,6 +513,9 @@
                     Lack of visuals during performances as the controller’s lights cannot be projected onto the
                     screen
                   </li>
+                  <li>
+                    Difficult to tell if a key has an existing sound file mapped to it
+                  </li>
                 </ul>
                 <br />
                 <h3 class="text-uppercase">Solution</h3>
@@ -600,7 +603,7 @@
                 </p>
                 <p class="modal-content-text">
                   I also decided to change the design of the sound library from grid format to list format to include
-                  only the necessary information and reduce wastage of space.
+                  only the necessary information (name) and reduce wastage of space.
                 </p>
                 <br />
                 <!-- TODO: writeup about designing prototype process -->
@@ -611,35 +614,40 @@
                 <i class="text-muted">Using <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">Nielsen's
                     Heuristics</a></i>
                 <p class="modal-content-text">
-                  <u>H4 - Consistency and standards</u>
-                  <br />
-                  Graphical User Interface (GUI) buttons are all drawn with the same colours and similar shading, to
-                  indicate that they are buttons and can be pressed. Player control buttons are located at the bottom
-                  of the screen, similar to many mobile 2D platformer games on the market.
-                </p>
-                <img src="img/portfolio/hangry/hangry map.PNG" alt="">
-                <p class="modal-content-text">
-                  <u>H5 - Error Prevention</u>
-                  <br />
-                  Confirmation prompts are used, for example in the event user presses the Exit Game button or wants to
-                  purchase an item.
-                </p>
-                <img src="img/portfolio/hangry/hangry confirm quit.PNG" alt="" height=100px>
-                <img src="img/portfolio/hangry/hangry confirm.PNG" alt="" height=100px>
-                <p class="modal-content-text">
                   <u>H6 - Recognition rather than recall</u>
                   <br />
-                  The number of monsters left to defeat before the next level unlocks is always displayed at the top of
-                  the map.
+                  To target one of the pain points where it is difficult for users to verify if a key has an existing
+                  sound file mapped to it, I displayed the name of the sound file on the key. This allows users to
+                  quickly distinguish between keys without any sounds and keys with sounds.
                 </p>
-                <img src="img/portfolio/hangry/hangry how many left.PNG" alt="" height=100px>
+                <img src="img/portfolio/vimu/vimu sound mapped key.PNG" alt="" width=200px>
+                <p class="modal-content-text">
+                  When the user edits a key, the key will show up in white on the on-screen keyboard, and will also be
+                  displayed in the top right corner of the Sound Editor section. This design allows the user to
+                  recognise the current key that he/she is selecting rather than recall it.
+                </p>
+                <img src="img/portfolio/vimu/vimu selected key.PNG" alt="" width=200px>
+                <img class="img-fluid mx-auto" src="img/portfolio/vimu/vimu sound editor.PNG" alt="">
+                <p class="modal-content-text">
+                  <u>H8 - Aesthetic and minimalist design</u>
+                  <br />
+                  In comparison to my initial prototype that had too many pages and too many buttons, I designed my
+                  hi-fidelity prototype to be cleaner and more minimilistic to declutter the space. The start page now
+                  only displays the keyboard, and progressive levels of detail are provided only upon switching to Edit
+                  mode (the pink lock). Even in Edit mode, the Sound Editor and Visuals Editor remain empty unless a
+                  key is selected, which reduces the user's cognitive load.
+                </p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/vimu/CS3240 HiFi Prototype-01.png" alt="">
                 <p class="modal-content-text">
                   <u>H10 - Help and Documentation</u>
                   <br />
-                  Instructions on how to play the game is always readily accessible from the settings menu, which is
-                  available in all scenes except the Main Menu.
+                  The help icon is always readily available at the top right corner of the screen.
                 </p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/hangry/hangry settings.jpg" alt="">
+                <img src="img/portfolio/vimu/vimu icons.PNG" alt="" height=100px>
+                <p class="modal-content-text">
+                  On clicking it, tooltips will appear with information on the function of each element.
+                </p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/vimu/CS3240 HiFi Prototype-06.png" alt="">
                 <br />
                 <h5 class="text-uppercase">Tools used</h5>
                 <img class="tools-icon img-fluid mx-auto" src="img/logos/invision.svg" alt="">
