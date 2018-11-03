@@ -727,6 +727,13 @@ section#contact {
   height: 80px;
   width: auto;
   padding:10px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 1;
+}
+
+.tools-icon:hover {
+  opacity: 0.5;
 }
 
 #about .btn {
