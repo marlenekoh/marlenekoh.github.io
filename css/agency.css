@@ -778,3 +778,10 @@ hr {
   height: 1px;
   background-color: #999999;
 }
+
+
+.casestudy-ss img {
+  width: 190px;
+  height: auto;
+  margin: 10px;
+}
